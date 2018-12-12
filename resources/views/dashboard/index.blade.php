@@ -10,7 +10,7 @@
 
     <title>{{ config('app.name') }} Dashboard</title>
 
-    <link rel="shortcut icon" href="{{ config('blog.default_icon') }}">
+    <link rel="shortcut icon" href="{{ asset(config('blog.default_icon')) }}">
 
     <link rel="stylesheet" href="{{ asset(mix('css/app.css')) }}">
 
